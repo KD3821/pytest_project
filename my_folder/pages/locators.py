@@ -8,3 +8,11 @@ class LoginPageLocators():
     LOGIN_URL = "login"
     LOGIN_FORM = (By.CSS_SELECTOR, "form#login_form")
     REG_FORM = (By.CSS_SELECTOR, "form#register_form")
+
+
+class ProductPageLocators():
+    ADD_BUTTON = (By.CSS_SELECTOR, "button.btn-add-to-basket")
+    PRODUCT_NAME = (By.CSS_SELECTOR, "div.product_main > h1")
+    PRODUCT_NAME_MESSAGE = (By.CSS_SELECTOR, "div.alertinner > strong")
+    PRODUCT_PRICE = (By.CSS_SELECTOR, "div.product_main > p.price_color")
+    PRODUCT_PRICE_MESSAGE = (By.CSS_SELECTOR, "div.alertinner > p > strong")
