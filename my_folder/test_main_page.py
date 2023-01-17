@@ -33,4 +33,6 @@ def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
 
 '''
 pytest -v --tb=line --language=en test_main_page.py
+or
+pytest -v -m login_guest --tb=line --language=en test_main_page.py
 '''
